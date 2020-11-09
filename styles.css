@@ -127,9 +127,14 @@ html{
   background: crimson;
   padding: 10px;
 }
+.home .home-content .text-4 a{
+  color: #fff;
+}
 .home .home-content .text-4:hover{
-  color: crimson;
   background: #fff;
+}
+.home .home-content .text-4 a:hover{
+  color: crimson;
 }
 .home .home-content .text-3 span{
   color: crimson;
@@ -502,7 +507,7 @@ section .title::after{
       width: 100%
     }
   }
-  @media (max-width: 427px){
+  @media (max-width: 480px){
     .max-width{
       padding: 0 25px;
     }
@@ -517,6 +522,9 @@ section .title::after{
     .home .home-content .text-3{
       font-size: 25px;
       margin: 5px 0;
+    }
+    .home .home-content .text-4{
+      font-size: 25px;
     }
     .about .about-content .right a{
       font-size: 15px;
@@ -541,5 +549,53 @@ section .title::after{
     .contact .contact-content .icons-2 .card-2 a i{
       font-size: 30px;
       color: crimson;
+    }
+  }
+  @media (max-width: 418px){
+    .home .home-content .text-1{
+      font-size: 20px;
+    }
+    .home .home-content .text-2{
+      font-size: 30px;
+      font-weight: 600;
+      margin-left: -3px;
+    }
+    .home .home-content .text-3{
+      font-size: 20px;
+      margin: 5px 0;
+    }
+    .home .home-content .text-4{
+      font-size: 20px;
+    }
+    .about .about-content .left img{
+      width: 350px;
+      height: 500px;
+    }
+    .contact .contact-content .text{
+      font-size: 22px;
+    }
+    .contact .contact-content .icons .card i{
+      font-size: 18px;
+    }
+    .contact .contact-content .icons .card span{
+      font-size: 14px;
+    }
+    .contact .contact-content .icons-2{
+      margin: 10px;
+    }
+    .contact .contact-content .icons-2 .card-2 a i{
+      font-size: 25px;
+      color: crimson;
+    }
+  }
+  @media (max-width: 380px){
+    .contact .contact-content .text{
+      font-size: 20px;
+    }
+    .contact .contact-content .icons .card i{
+      font-size: 18px;
+    }
+    .contact .contact-content .icons .card span{
+      font-size: 12px;
     }
   }
