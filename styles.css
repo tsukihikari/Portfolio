@@ -607,3 +607,27 @@ section .title::after{
       font-size: 12px;
     }
   }
+  @media (max-width: 321px){
+    .home{
+      height: 700px;
+      background: #111;
+    }
+    .about .about-content .left img{
+      width: 300px;
+      height: 400px;
+    }
+    .services .title::after{
+      font-size: 18px;
+    }
+    .contact .contact-content .icons .card span{
+      font-size: 10px;
+    }
+    .contact .contact-content .icons-2 .card-2{
+      margin: 1px;
+    }
+    .contact .contact-content .icons-2 .card-2 i{
+      font-size: 15px;
+      padding: 1px;
+      margin: 1px;
+    }
+  }
